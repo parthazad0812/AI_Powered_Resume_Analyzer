@@ -5,7 +5,7 @@ import os
 
 # Load environment variables
 load_dotenv()
-genai.configure(api_key=os.getenv("AIzaSyC5PKvJZj13nsao4NzrqVtyDl_7KA26Vdg"))
+genai.configure(api_key=os.getenv("Your google API key")
 
 # Create the Flask app instance
 app = Flask(__name__)
